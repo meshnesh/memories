@@ -7,3 +7,4 @@ function MouseWheelHandler(e) {
     document.getElementById("clickScroll").checked = true;
     return false;
 }
+
