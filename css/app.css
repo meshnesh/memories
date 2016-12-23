@@ -1,10 +1,32 @@
-@import 'https://fonts.googleapis.com/css?family=Kaushan+Script';
-@import 'https://fonts.googleapis.com/css?family=Cormorant+Upright';
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans:600');
+body{
+    /*background-color: #757575;*/
+    font-family: 'Lato', sans-serif;
+
+}
+h3{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+p{
+        line-height: 24px;
+}
+.p_first, .p_second{
+    font-size: 40px;
+}
+.p_second{
+    padding-top: 8px;
+}
+h1{
+    text-align: center;
+    padding-top: 18%;
+    color: rgba(255, 153, 0, 1);
+}
 
 /****************************NAV BAR************************************/
 
 nav {
-    position: fixed;
+    /*position: fixed;*/
     width: 100%;
     top: 0;
     min-height: 50px;
@@ -12,7 +34,7 @@ nav {
     text-align: center;
     background-color: transparent;
     transition: .5s;
-    color: rgba(254, 255, 253,1);
+    color: #757575;
 }
 
 nav li {
@@ -21,14 +43,14 @@ nav li {
 }
 
 nav li a {
-    color: rgba(254, 255, 253,1);
+    color: #757575;
     text-transform: uppercase;
     font-weight: bolder;
 }
 
 .toggle-nav {
     display: none;
-    color: rgba(255, 153, 0, 1);
+    color: #757575;
 }
 
 a:hover,
@@ -50,9 +72,9 @@ nav.scrolling {
 
 
 /*********NAV BAR END**********/
-.small-6,.first-p {
+.first-p {
     width: 100%;
-    margin-top: 30%;
+    margin-top: 18%;
     font-size: 2.9rem;
     text-align: center;
     text-align: left;
@@ -80,4 +102,23 @@ nav.scrolling {
     width: 100%;
     background-position: 0% 20%;
     position: relative;
+}
+.life, .promotion, .story{
+    padding-top: 72px;
+    color: rgba(255, 153, 0, 1);
+    font-size: 15px;
+}
+.promotion{
+    padding-left: 8px;
+    /*color: rgba(255, 153, 0, 1);*/
+}
+h6{
+    text-align: right;
+}
+.story{
+        border: 1px solid #757575;
+        margin-bottom: 8px;
+}
+.small-11.small-centered.last{
+    float: none;
 }
